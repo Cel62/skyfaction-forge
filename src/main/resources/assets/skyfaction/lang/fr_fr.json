@@ -12,6 +12,61 @@
   "item.skyfaction.kozalium_fragment": "Fragment de kozalium",
   "item.skyfaction.xray_fragment": "Fragment de Xray",
 
+  "item.skyfaction.nitrite_sword": "Épée en nitrite",
+  "item.skyfaction.nitrite_pickaxe": "Pioche en nitrite",
+  "item.skyfaction.nitrite_axe": "Hache en nitrite",
+  "item.skyfaction.nitrite_shovel": "Pelle en nitrite",
+  "item.skyfaction.nitrite_hoe": "Houe en nitrite",
+
+  "item.skyfaction.artrite_sword": "Épée en artrite",
+  "item.skyfaction.artrite_pickaxe": "Pioche en artrite",
+  "item.skyfaction.artrite_axe": "Hache en artrite",
+  "item.skyfaction.artrite_shovel": "Pelle en Artrite",
+  "item.skyfaction.artrite_hoe": "Houe en Artrite",
+
+  "item.skyfaction.terralium_sword": "Épée en terralium",
+  "item.skyfaction.terralium_pickaxe": "Pioche en terralium",
+  "item.skyfaction.terralium_axe": "Hache en terralium",
+  "item.skyfaction.terralium_shovel": "Pelle en terralium",
+  "item.skyfaction.terralium_hoe": "Houe en terralium",
+
+  "item.skyfaction.horium_sword": "Épée en horium",
+  "item.skyfaction.horium_pickaxe": "Pioche en horium",
+  "item.skyfaction.horium_axe": "Hache en horium",
+  "item.skyfaction.horium_shovel": "Pelle en horium",
+  "item.skyfaction.horium_hoe": "Houe en horium",
+
+  "item.skyfaction.kozalium_sword": "Épée en kozalium",
+  "item.skyfaction.kozalium_pickaxe": "Pioche en kozalium",
+  "item.skyfaction.kozalium_axe": "Hache en kozalium",
+  "item.skyfaction.kozalium_shovel": "Pelle en kozalium",
+  "item.skyfaction.kozalium_hoe": "Houe en kozalium",
+
+  "item.skyfaction.nitrite_helmet": "Casque en nitrite",
+  "item.skyfaction.nitrite_chestplate": "Plastron en nitrite",
+  "item.skyfaction.nitrite_leggings": "Jambières en nitrite",
+  "item.skyfaction.nitrite_boots": "Bottes en nitrite",
+
+  "item.skyfaction.artrite_helmet": "Casque en artrite",
+  "item.skyfaction.artrite_chestplate": "Plastron en artrite",
+  "item.skyfaction.artrite_leggings": "Jambières en artrite",
+  "item.skyfaction.artrite_boots": "Bottes en artrite",
+
+  "item.skyfaction.terralium_helmet": "Casque en terralium",
+  "item.skyfaction.terralium_chestplate": "Plastron en terralium",
+  "item.skyfaction.terralium_leggings": "Jambières en terralium",
+  "item.skyfaction.terralium_boots": "Bottes en terralium",
+
+  "item.skyfaction.horium_helmet": "Casque en horium",
+  "item.skyfaction.horium_chestplate": "Plastron en horium",
+  "item.skyfaction.horium_leggings": "Jambières en horium",
+  "item.skyfaction.horium_boots": "Bottes en horium",
+
+  "item.skyfaction.kozalium_helmet": "Casque en kozalium",
+  "item.skyfaction.kozalium_chestplate": "Plastron en kozalium",
+  "item.skyfaction.kozalium_leggings": "Jambières en kozalium",
+  "item.skyfaction.kozalium_boots": "Bottes en kozalium",
+
   "block.skyfaction.nitrite_block": "Bloc de nitrite",
   "block.skyfaction.artrite_block": "Bloc d'artrite",
   "block.skyfaction.terralium_block": "Bloc de terralium",

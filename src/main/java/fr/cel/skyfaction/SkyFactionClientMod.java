@@ -13,10 +13,7 @@ public class SkyFactionClientMod {
 
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
-        // TODO trouver l'autre manière de mettre en translucent
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.CAVE_BLOCK.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.XRAY_ORE.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DEEPSLATE_XRAY_ORE.get(), RenderType.translucent());
+
     }
 
 }

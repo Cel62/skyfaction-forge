@@ -77,6 +77,62 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.OBSIDIAN_SLAB.get());
                         pOutput.accept(ModBlocks.OBSIDIAN_STAIRS.get());
                         pOutput.accept(ModBlocks.OBSIDIAN_TRAPDOOR.get());
+
+                        // Tools
+                        pOutput.accept(ModItems.NITRITE_SWORD.get());
+                        pOutput.accept(ModItems.NITRITE_PICKAXE.get());
+                        pOutput.accept(ModItems.NITRITE_AXE.get());
+                        pOutput.accept(ModItems.NITRITE_SHOVEL.get());
+                        pOutput.accept(ModItems.NITRITE_HOE.get());
+
+                        pOutput.accept(ModItems.ARTRITE_SWORD.get());
+                        pOutput.accept(ModItems.ARTRITE_PICKAXE.get());
+                        pOutput.accept(ModItems.ARTRITE_AXE.get());
+                        pOutput.accept(ModItems.ARTRITE_SHOVEL.get());
+                        pOutput.accept(ModItems.ARTRITE_HOE.get());
+
+                        pOutput.accept(ModItems.TERRALIUM_SWORD.get());
+                        pOutput.accept(ModItems.TERRALIUM_PICKAXE.get());
+                        pOutput.accept(ModItems.TERRALIUM_AXE.get());
+                        pOutput.accept(ModItems.TERRALIUM_SHOVEL.get());
+                        pOutput.accept(ModItems.TERRALIUM_HOE.get());
+
+                        pOutput.accept(ModItems.HORIUM_SWORD.get());
+                        pOutput.accept(ModItems.HORIUM_PICKAXE.get());
+                        pOutput.accept(ModItems.HORIUM_AXE.get());
+                        pOutput.accept(ModItems.HORIUM_SHOVEL.get());
+                        pOutput.accept(ModItems.HORIUM_HOE.get());
+
+                        pOutput.accept(ModItems.KOZALIUM_SWORD.get());
+                        pOutput.accept(ModItems.KOZALIUM_PICKAXE.get());
+                        pOutput.accept(ModItems.KOZALIUM_AXE.get());
+                        pOutput.accept(ModItems.KOZALIUM_SHOVEL.get());
+                        pOutput.accept(ModItems.KOZALIUM_HOE.get());
+
+                        pOutput.accept(ModItems.NITRITE_HELMET.get());
+                        pOutput.accept(ModItems.NITRITE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.NITRITE_LEGGINGS.get());
+                        pOutput.accept(ModItems.NITRITE_BOOTS.get());
+
+                        pOutput.accept(ModItems.ARTRITE_HELMET.get());
+                        pOutput.accept(ModItems.ARTRITE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.ARTRITE_LEGGINGS.get());
+                        pOutput.accept(ModItems.ARTRITE_BOOTS.get());
+
+                        pOutput.accept(ModItems.TERRALIUM_HELMET.get());
+                        pOutput.accept(ModItems.TERRALIUM_CHESTPLATE.get());
+                        pOutput.accept(ModItems.TERRALIUM_LEGGINGS.get());
+                        pOutput.accept(ModItems.TERRALIUM_BOOTS.get());
+
+                        pOutput.accept(ModItems.HORIUM_HELMET.get());
+                        pOutput.accept(ModItems.HORIUM_CHESTPLATE.get());
+                        pOutput.accept(ModItems.HORIUM_LEGGINGS.get());
+                        pOutput.accept(ModItems.HORIUM_BOOTS.get());
+
+                        pOutput.accept(ModItems.KOZALIUM_HELMET.get());
+                        pOutput.accept(ModItems.KOZALIUM_CHESTPLATE.get());
+                        pOutput.accept(ModItems.KOZALIUM_LEGGINGS.get());
+                        pOutput.accept(ModItems.KOZALIUM_BOOTS.get());
                     }))
                     .build());
 

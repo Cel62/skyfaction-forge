@@ -37,9 +37,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.KOZALIUM_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_KOZALIUM_ORE);
 
-        blockWithItem(ModBlocks.XRAY_ORE);
-        blockWithItem(ModBlocks.DEEPSLATE_XRAY_ORE);
-
         blockWithItem(ModBlocks.WHITE_COLORBLOCK);
         blockWithItem(ModBlocks.ORANGE_COLORBLOCK);
         blockWithItem(ModBlocks.MAGENTA_COLORBLOCK);
@@ -56,8 +53,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.GREEN_COLORBLOCK);
         blockWithItem(ModBlocks.RED_COLORBLOCK);
         blockWithItem(ModBlocks.BLACK_COLORBLOCK);
-
-        blockWithItem(ModBlocks.CAVE_BLOCK);
 
         stairsBlock(((StairBlock) ModBlocks.OBSIDIAN_STAIRS.get()), blockTexture(Blocks.OBSIDIAN));
         slabBlock(((SlabBlock) ModBlocks.OBSIDIAN_SLAB.get()), blockTexture(Blocks.OBSIDIAN), blockTexture(Blocks.OBSIDIAN));
