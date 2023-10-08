@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "skyfaction:xray_fragment"
+    }
+  },
+  "pattern": [
+    "GXG",
+    "XGX",
+    "GXG"
+  ],
+  "result": {
+    "item": "skyfaction:cave_block"
+  },
+  "show_notification": true
+}

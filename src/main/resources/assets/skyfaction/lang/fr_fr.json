@@ -1,0 +1,59 @@
+{
+  "item.skyfaction.nitrite_ingot": "Lingot de nitrite",
+  "item.skyfaction.artrite_ingot": "Lingot d'artrite",
+  "item.skyfaction.terralium_ingot": "Lingot de terralium",
+  "item.skyfaction.horium_ingot": "Lingot d'horium",
+  "item.skyfaction.kozalium_ingot": "Lingot de kozalium",
+
+  "item.skyfaction.nitrite_fragment": "Fragment de nitrite",
+  "item.skyfaction.artrite_fragment": "Fragment d'artrite",
+  "item.skyfaction.terralium_fragment": "Fragment de terralium",
+  "item.skyfaction.horium_fragment": "Fragment d'horium",
+  "item.skyfaction.kozalium_fragment": "Fragment de kozalium",
+  "item.skyfaction.xray_fragment": "Fragment de Xray",
+
+  "block.skyfaction.nitrite_block": "Bloc de nitrite",
+  "block.skyfaction.artrite_block": "Bloc d'artrite",
+  "block.skyfaction.terralium_block": "Bloc de terralium",
+  "block.skyfaction.horium_block": "Bloc d'horium",
+  "block.skyfaction.kozalium_block": "Bloc de kozalium",
+
+  "block.skyfaction.nitrite_ore": "Minerai de nitrite",
+  "block.skyfaction.artrite_ore": "Minerai d'artrite",
+  "block.skyfaction.terralium_ore": "Minerai de terralium",
+  "block.skyfaction.horium_ore": "Minerai d'horium",
+  "block.skyfaction.kozalium_ore": "Minerai de kozalium",
+  "block.skyfaction.xray_ore": "Minerai de Xray",
+
+  "block.skyfaction.deepslate_nitrite_ore": "Minerai de nitrite des abîmes",
+  "block.skyfaction.deepslate_artrite_ore": "Minerai d'artrite des abîmes",
+  "block.skyfaction.deepslate_terralium_ore": "Minerai de terralium des abîmes",
+  "block.skyfaction.deepslate_horium_ore": "Minerai d'horium des abîmes",
+  "block.skyfaction.deepslate_kozalium_ore": "Minerai de kozalium des abîmes",
+  "block.skyfaction.deepslate_xray_ore": "Minerai de Xray des abîmes",
+
+  "block.skyfaction.white_colorblock": "Bloc de couleur blanche",
+  "block.skyfaction.orange_colorblock": "Bloc de couleur orange",
+  "block.skyfaction.magenta_colorblock": "Bloc de couleur magenta",
+  "block.skyfaction.light_blue_colorblock": "Bloc de couleur bleu clair",
+  "block.skyfaction.yellow_colorblock": "Bloc de couleur jaune",
+  "block.skyfaction.lime_colorblock": "Bloc de couleur vert clair",
+  "block.skyfaction.pink_colorblock": "Bloc de couleur rose",
+  "block.skyfaction.gray_colorblock": "Bloc de couleur grise",
+  "block.skyfaction.light_gray_colorblock": "Bloc de couleur gris clair",
+  "block.skyfaction.cyan_colorblock": "Bloc de couleur cyan",
+  "block.skyfaction.purple_colorblock": "Bloc de couleur violette",
+  "block.skyfaction.brown_colorblock": "Bloc de couleur marron",
+  "block.skyfaction.green_colorblock": "Bloc de couleur verte",
+  "block.skyfaction.red_colorblock": "Bloc de couleur rouge",
+  "block.skyfaction.black_colorblock": "Bloc de couleur noire",
+
+  "block.skyfaction.cave_block": "Bloc de cave",
+
+  "block.skyfaction.obsidian_stairs": "Escaliers en obsidienne",
+  "block.skyfaction.obsidian_slab": "Dalle en obsidienne",
+  "block.skyfaction.obsidian_door": "Porte en obsidienne",
+  "block.skyfaction.obsidian_trapdoor": "Trappe en obsidienne",
+
+  "itemGroup.skyfaction": "SkyFaction"
+}

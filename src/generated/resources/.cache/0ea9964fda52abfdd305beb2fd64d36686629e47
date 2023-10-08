@@ -1,0 +1,7 @@
+// 1.20.1	2023-10-08T18:23:04.0516302	Tags for minecraft:block mod id skyfaction
+c8cc3b431a05181deca8429c2193b579673f4bdf data/minecraft/tags/blocks/doors.json
+f7e2481f42c6353f0713afad5d2d330e10490db3 data/minecraft/tags/blocks/mineable/pickaxe.json
+638c8a744c4a99aec89bb530c67bbf8d57b47b99 data/minecraft/tags/blocks/needs_diamond_tool.json
+c9fa3cbe15f524b56963fc2dd49806ad7e98f30b data/minecraft/tags/blocks/slabs.json
+00d97f31fad4d0fd63028446307094ccc562de11 data/minecraft/tags/blocks/stairs.json
+ad151435cdaac062f921cba98a4480fce1a3bdd3 data/minecraft/tags/blocks/trapdoors.json

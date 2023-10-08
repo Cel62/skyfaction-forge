@@ -1,0 +1,59 @@
+{
+  "item.skyfaction.nitrite_ingot": "Nitrite Ingot",
+  "item.skyfaction.artrite_ingot": "Artrite Ingot",
+  "item.skyfaction.terralium_ingot": "Terralium Ingot",
+  "item.skyfaction.horium_ingot": "Horium Ingot",
+  "item.skyfaction.kozalium_ingot": "Kozalium Ingot",
+
+  "item.skyfaction.nitrite_fragment": "Nitrite Fragment",
+  "item.skyfaction.artrite_fragment": "Artrite Fragment",
+  "item.skyfaction.terralium_fragment": "Terralium Fragment",
+  "item.skyfaction.horium_fragment": "Horium Fragment",
+  "item.skyfaction.kozalium_fragment": "Kozalium Fragment",
+  "item.skyfaction.xray_fragment": "Xray Fragment",
+
+  "block.skyfaction.nitrite_block": "Nitrite Block",
+  "block.skyfaction.artrite_block": "Artrite Block",
+  "block.skyfaction.terralium_block": "Terralium Block",
+  "block.skyfaction.horium_block": "Horium Block",
+  "block.skyfaction.kozalium_block": "Kozalium Block",
+
+  "block.skyfaction.nitrite_ore": "Nitrite Ore",
+  "block.skyfaction.artrite_ore": "Artrite Ore",
+  "block.skyfaction.terralium_ore": "Terralium Ore",
+  "block.skyfaction.horium_ore": "Horium Ore",
+  "block.skyfaction.kozalium_ore": "Kozalium Ore",
+  "block.skyfaction.xray_ore": "Xray Ore",
+
+  "block.skyfaction.deepslate_nitrite_ore": "Deepslate Nitrite Ore",
+  "block.skyfaction.deepslate_artrite_ore": "Deepslate Artrite Ore",
+  "block.skyfaction.deepslate_terralium_ore": "Deepslate Terralium Ore",
+  "block.skyfaction.deepslate_horium_ore": "Deepslate Horium Ore",
+  "block.skyfaction.deepslate_kozalium_ore": "Deepslate Kozalium Ore",
+  "block.skyfaction.deepslate_xray_ore": "Deepslate Xray Ore",
+
+  "block.skyfaction.white_colorblock": "White Color Block",
+  "block.skyfaction.orange_colorblock": "Orange Color Block",
+  "block.skyfaction.magenta_colorblock": "Magenta Color Block",
+  "block.skyfaction.light_blue_colorblock": "Light Blue Color Block",
+  "block.skyfaction.yellow_colorblock": "Yellow Color Block",
+  "block.skyfaction.lime_colorblock": "Lime Color Block",
+  "block.skyfaction.pink_colorblock": "Pink Color Block",
+  "block.skyfaction.gray_colorblock": "Gray Color Block",
+  "block.skyfaction.light_gray_colorblock": "Light Gray Color Block",
+  "block.skyfaction.cyan_colorblock": "Cyan Color Block",
+  "block.skyfaction.purple_colorblock": "Purple Color Block",
+  "block.skyfaction.brown_colorblock": "Brown Color Block",
+  "block.skyfaction.green_colorblock": "Green Color Block",
+  "block.skyfaction.red_colorblock": "Red Color Block",
+  "block.skyfaction.black_colorblock": "Black Color Block",
+
+  "block.skyfaction.cave_block": "Cave Block",
+
+  "block.skyfaction.obsidian_stairs": "Obsidian Stairs",
+  "block.skyfaction.obsidian_slab": "Obsidian Slab",
+  "block.skyfaction.obsidian_door": "Obsidian Door",
+  "block.skyfaction.obsidian_trapdoor": "Obsidian Trapdoor",
+
+  "itemGroup.skyfaction": "SkyFaction"
+}
