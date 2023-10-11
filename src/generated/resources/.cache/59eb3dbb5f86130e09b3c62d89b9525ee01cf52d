@@ -1,10 +1,11 @@
-// 1.20.1	2023-10-08T18:23:04.0476315	Loot Tables
+// 1.20.1	2023-10-11T19:26:30.3556275	Loot Tables
 1b2cf685d657d3250a34f7258e265eb20f331a2e data/skyfaction/loot_tables/blocks/artrite_block.json
 f4dfc2db6dc3641d4c0f257577b2454150594d2e data/skyfaction/loot_tables/blocks/artrite_ore.json
 d263a9d1e1cd24f90f08ea0c364e9ac1837aa4d0 data/skyfaction/loot_tables/blocks/black_colorblock.json
 6db673fa307bb954159c68c872fccf1f0f9800c2 data/skyfaction/loot_tables/blocks/blue_colorblock.json
 dfb467c529ab6f8d9c034d1e310f86b3a3581dd8 data/skyfaction/loot_tables/blocks/brown_colorblock.json
 c9719af6ef799f3a6fc085cb6bdebb9a527adeab data/skyfaction/loot_tables/blocks/cave_block.json
+b9435b101d2ef02be8ef9d45d910994ad059f575 data/skyfaction/loot_tables/blocks/compressed_tnt.json
 60dcf0d8c658246d67ded2d376683abed7fb1faa data/skyfaction/loot_tables/blocks/cyan_colorblock.json
 93372aaa854ce4595ca56c9468258ac92e9bdfe6 data/skyfaction/loot_tables/blocks/deepslate_artrite_ore.json
 036be262c7aaecc1c27dab0cc541e82bd81ad2bf data/skyfaction/loot_tables/blocks/deepslate_horium_ore.json
@@ -32,8 +33,10 @@ e636ac23f969faef39d756631f5d6b76784f95ea data/skyfaction/loot_tables/blocks/obsi
 063d3c96c3841b5fa764b4b8f899deccf6d96c4c data/skyfaction/loot_tables/blocks/pink_colorblock.json
 55a5e93b3859bdef5425badfd884d3c32cb70cc9 data/skyfaction/loot_tables/blocks/purple_colorblock.json
 699ba4dae115ba7f41d5696b9225690524996fe4 data/skyfaction/loot_tables/blocks/red_colorblock.json
+ecd3cf3b160d1e0a581917a435de716ae785092e data/skyfaction/loot_tables/blocks/renforced_cobblestone.json
 6c8b2bac3a3478e644c097351550776ed2d5ca85 data/skyfaction/loot_tables/blocks/terralium_block.json
 297b81c4f9692d21e78bd0c3a0e766a9460297d8 data/skyfaction/loot_tables/blocks/terralium_ore.json
 dcd3023a104587fa815d1b68f2bb403d14e15ed7 data/skyfaction/loot_tables/blocks/white_colorblock.json
+613ffaee19b89f80eac284c3bc898df7a2cc9adf data/skyfaction/loot_tables/blocks/xp_bush.json
 7f5cf5ceab115bfd67486edd27c79fd4e468b7d2 data/skyfaction/loot_tables/blocks/xray_ore.json
 f28dc66b50ca844e5ab87a8fc9977d175dd7ec0b data/skyfaction/loot_tables/blocks/yellow_colorblock.json

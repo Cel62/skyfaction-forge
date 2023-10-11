@@ -94,6 +94,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         doorBuilder(ModBlocks.OBSIDIAN_DOOR.get(), Ingredient.of(Blocks.OBSIDIAN)).unlockedBy(getHasName(Blocks.OBSIDIAN), has(Blocks.OBSIDIAN)).save(pWriter);
         slab(pWriter, RecipeCategory.MISC, ModBlocks.OBSIDIAN_SLAB.get(), Blocks.OBSIDIAN);
         trapdoorBuilder(ModBlocks.OBSIDIAN_TRAPDOOR.get(), Ingredient.of(Blocks.OBSIDIAN)).unlockedBy(getHasName(Blocks.OBSIDIAN), has(Blocks.OBSIDIAN)).save(pWriter);
+
+        // TODO armors / tools / fake water bucket / compressed tnt / renforced cobblestone / sticks (minerais et effects) / orbs
     }
 
     private void colorBlock(ItemLike item, RegistryObject<Block> block, Consumer<FinishedRecipe> pWriter) {

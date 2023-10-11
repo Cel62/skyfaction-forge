@@ -16,12 +16,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        // Mineral blocks
         blockWithItem(ModBlocks.NITRITE_BLOCK);
         blockWithItem(ModBlocks.ARTRITE_BLOCK);
         blockWithItem(ModBlocks.TERRALIUM_BLOCK);
         blockWithItem(ModBlocks.HORIUM_BLOCK);
         blockWithItem(ModBlocks.KOZALIUM_BLOCK);
 
+        // Ores
         blockWithItem(ModBlocks.NITRITE_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_NITRITE_ORE);
 
@@ -37,6 +39,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.KOZALIUM_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_KOZALIUM_ORE);
 
+        // Color Blocks
         blockWithItem(ModBlocks.WHITE_COLORBLOCK);
         blockWithItem(ModBlocks.ORANGE_COLORBLOCK);
         blockWithItem(ModBlocks.MAGENTA_COLORBLOCK);
@@ -54,10 +57,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RED_COLORBLOCK);
         blockWithItem(ModBlocks.BLACK_COLORBLOCK);
 
+        // Obsidian
         stairsBlock(((StairBlock) ModBlocks.OBSIDIAN_STAIRS.get()), blockTexture(Blocks.OBSIDIAN));
         slabBlock(((SlabBlock) ModBlocks.OBSIDIAN_SLAB.get()), blockTexture(Blocks.OBSIDIAN), blockTexture(Blocks.OBSIDIAN));
         doorBlockWithRenderType(((DoorBlock) ModBlocks.OBSIDIAN_DOOR.get()), modLoc("block/obsidian_door_bottom"), modLoc("block/obsidian_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.OBSIDIAN_TRAPDOOR.get()), modLoc("block/obsidian_trapdoor"), true, "cutout");
+
+        // Other
+        blockWithItem(ModBlocks.RENFORCED_COBBLESTONE);
 
     }
 

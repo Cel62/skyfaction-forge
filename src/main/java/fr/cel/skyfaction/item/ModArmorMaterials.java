@@ -23,7 +23,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     HORIUM("horium", 50, new int[]{ 4, 9, 8, 3 }, 18,
         SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0F, 0.1F, () -> Ingredient.of(ModItems.HORIUM_INGOT.get())),
 
-    KOZALIUM("kozalium", 55, new int[]{ 4, 10, 8, 4 }, 20,
+    KOZALIUM("kozalium", 55, new int[]{ 6, 9, 9, 6 }, 20,
         SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0F, 0.1F, () -> Ingredient.of(ModItems.KOZALIUM_INGOT.get()));
 
     private final String name;
@@ -37,8 +37,8 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     private static final int[] BASE_DURABILITY = { 11, 16, 16, 13 };
 
-    ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantmentValue, SoundEvent equipSound, float toughness,
-                             float knockbackResistance, Supplier<Ingredient> repairIngredient) {
+    ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantmentValue, SoundEvent equipSound,
+                      float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;

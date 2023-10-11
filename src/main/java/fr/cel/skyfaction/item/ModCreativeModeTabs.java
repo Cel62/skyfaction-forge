@@ -78,6 +78,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.OBSIDIAN_STAIRS.get());
                         pOutput.accept(ModBlocks.OBSIDIAN_TRAPDOOR.get());
 
+                        pOutput.accept(ModBlocks.COMPRESSED_TNT.get());
+                        pOutput.accept(ModBlocks.RENFORCED_COBBLESTONE.get());
+
                         // Tools
                         pOutput.accept(ModItems.NITRITE_SWORD.get());
                         pOutput.accept(ModItems.NITRITE_PICKAXE.get());
@@ -133,6 +136,28 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.KOZALIUM_CHESTPLATE.get());
                         pOutput.accept(ModItems.KOZALIUM_LEGGINGS.get());
                         pOutput.accept(ModItems.KOZALIUM_BOOTS.get());
+
+                        pOutput.accept(ModItems.HEAL_STICK.get());
+                        pOutput.accept(ModItems.STRENGHT_STICK.get());
+                        pOutput.accept(ModItems.SPEED_STICK.get());
+                        pOutput.accept(ModItems.FOOD_STICK.get());
+
+                        pOutput.accept(ModItems.NITRITE_STICK.get());
+                        pOutput.accept(ModItems.ARTRITE_STICK.get());
+                        pOutput.accept(ModItems.TERRALIUM_STICK.get());
+                        pOutput.accept(ModItems.HORIUM_STICK.get());
+                        pOutput.accept(ModItems.KOZALIUM_STICK.get());
+
+                        pOutput.accept(ModItems.NITRITE_ORB.get());
+                        pOutput.accept(ModItems.ARTRITE_ORB.get());
+                        pOutput.accept(ModItems.TERRALIUM_ORB.get());
+                        pOutput.accept(ModItems.HORIUM_ORB.get());
+                        pOutput.accept(ModItems.KOZALIUM_ORB.get());
+
+                        pOutput.accept(ModItems.FAKE_WATER_BUCKET.get());
+
+                        pOutput.accept(ModBlocks.XP_BUSH.get());
+                        pOutput.accept(ModItems.XP_BERRY.get());
                     }))
                     .build());
 

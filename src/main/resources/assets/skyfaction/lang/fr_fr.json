@@ -67,6 +67,27 @@
   "item.skyfaction.kozalium_leggings": "Jambières en kozalium",
   "item.skyfaction.kozalium_boots": "Bottes en kozalium",
 
+  "item.skyfaction.heal_stick": "Bâton de soin",
+  "item.skyfaction.strenght_stick": "Bâton de force",
+  "item.skyfaction.speed_stick": "Bâton de vitesse",
+  "item.skyfaction.food_stick": "Bâton de nourriture",
+
+  "item.skyfaction.nitrite_stick": "Bâton de nitrite",
+  "item.skyfaction.artrite_stick": "Bâton d'artrite",
+  "item.skyfaction.terralium_stick": "Bâton de terralium",
+  "item.skyfaction.horium_stick": "Bâton d'horium",
+  "item.skyfaction.kozalium_stick": "Bâton de kozalium",
+
+  "item.skyfaction.nitrite_orb": "Orbe de nitrite",
+  "item.skyfaction.artrite_orb": "Orbe d'artrite",
+  "item.skyfaction.terralium_orb": "Orbe de terralium",
+  "item.skyfaction.horium_orb": "Orbe d'horium",
+  "item.skyfaction.kozalium_orb": "Orbe de kozalium",
+
+  "item.skyfaction.xp_berry": "Baie d'expérience",
+
+  "item.skyfaction.fake_water_bucket": "Seau d'eau fausse",
+
   "block.skyfaction.nitrite_block": "Bloc de nitrite",
   "block.skyfaction.artrite_block": "Bloc d'artrite",
   "block.skyfaction.terralium_block": "Bloc de terralium",
@@ -104,11 +125,15 @@
   "block.skyfaction.black_colorblock": "Bloc de couleur noire",
 
   "block.skyfaction.cave_block": "Bloc de cave",
+  "block.skyfaction.compressed_tnt": "TNT compressée",
+  "block.skyfaction.renforced_cobblestone": "Pierres renforcées",
 
   "block.skyfaction.obsidian_stairs": "Escaliers en obsidienne",
   "block.skyfaction.obsidian_slab": "Dalle en obsidienne",
   "block.skyfaction.obsidian_door": "Porte en obsidienne",
   "block.skyfaction.obsidian_trapdoor": "Trappe en obsidienne",
+
+  "block.skyfaction.xp_bush": "Buisson d'expérience",
 
   "itemGroup.skyfaction": "SkyFaction"
 }

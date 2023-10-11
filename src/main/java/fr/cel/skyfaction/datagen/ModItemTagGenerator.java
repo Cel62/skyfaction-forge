@@ -26,6 +26,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 ModItems.TERRALIUM_HELMET.get(), ModItems.TERRALIUM_HELMET.get(), ModItems.TERRALIUM_LEGGINGS.get(), ModItems.TERRALIUM_BOOTS.get(),
                 ModItems.HORIUM_HELMET.get(), ModItems.HORIUM_CHESTPLATE.get(), ModItems.HORIUM_LEGGINGS.get(), ModItems.HORIUM_BOOTS.get(),
                 ModItems.KOZALIUM_HELMET.get(), ModItems.KOZALIUM_CHESTPLATE.get(), ModItems.KOZALIUM_LEGGINGS.get(), ModItems.KOZALIUM_BOOTS.get());
+
+        this.tag(ItemTags.BEACON_PAYMENT_ITEMS).add(
+                ModItems.NITRITE_INGOT.get(),
+                ModItems.ARTRITE_INGOT.get(),
+                ModItems.TERRALIUM_INGOT.get(),
+                ModItems.HORIUM_INGOT.get(),
+                ModItems.KOZALIUM_INGOT.get());
     }
 
 }

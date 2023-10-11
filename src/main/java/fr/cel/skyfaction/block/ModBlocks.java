@@ -1,6 +1,8 @@
 package fr.cel.skyfaction.block;
 
 import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.block.custom.XPBerryBlock;
+import fr.cel.skyfaction.fluid.ModFluids;
 import fr.cel.skyfaction.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -8,6 +10,9 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.Fluids;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -121,6 +126,17 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> OBSIDIAN_TRAPDOOR = registerBlock("obsidian_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).noOcclusion(), BlockSetType.OAK));
+
+    public static final RegistryObject<Block> COMPRESSED_TNT = registerBlock("compressed_tnt",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.FIRE).instabreak().sound(SoundType.GRASS)));
+
+    public static final RegistryObject<Block> RENFORCED_COBBLESTONE = registerBlock("renforced_cobblestone",
+            () -> new Block(BlockBehaviour.Properties.of().strength(30.0F)));
+
+    public static final RegistryObject<LiquidBlock> FAKE_WATER = registerBlockWithoutBlockItem("fake_water_fluid",
+            () -> new LiquidBlock(ModFluids.SOURCE_FAKE_WATER, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+
+    public static final RegistryObject<Block> XP_BUSH = registerBlock("xp_bush", () -> new XPBerryBlock());
 
 
     /* FUNCTIONS */

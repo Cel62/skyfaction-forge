@@ -65,14 +65,20 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.RED_COLORBLOCK.get());
         this.dropSelf(ModBlocks.BLACK_COLORBLOCK.get());
 
-        this.dropSelf(ModBlocks.CAVE_BLOCK.get());
-
+        // Obsidian
         this.dropSelf(ModBlocks.OBSIDIAN_TRAPDOOR.get());
         this.dropSelf(ModBlocks.OBSIDIAN_STAIRS.get());
         this.add(ModBlocks.OBSIDIAN_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.OBSIDIAN_SLAB.get()));
         this.add(ModBlocks.OBSIDIAN_DOOR.get(),
                 block -> createDoorTable(ModBlocks.OBSIDIAN_DOOR.get()));
+
+        // Other
+        this.dropSelf(ModBlocks.CAVE_BLOCK.get());
+        this.dropSelf(ModBlocks.COMPRESSED_TNT.get());
+        this.dropSelf(ModBlocks.RENFORCED_COBBLESTONE.get());
+
+        this.dropSelf(ModBlocks.XP_BUSH.get());
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

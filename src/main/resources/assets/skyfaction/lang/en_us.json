@@ -67,6 +67,27 @@
   "item.skyfaction.kozalium_leggings": "Kozalium Leggings",
   "item.skyfaction.kozalium_boots": "Kozalium Boots",
 
+  "item.skyfaction.heal_stick": "Heal Stick",
+  "item.skyfaction.strenght_stick": "Strenght Stick",
+  "item.skyfaction.speed_stick": "Speed Stick",
+  "item.skyfaction.food_stick": "Food Stick",
+
+  "item.skyfaction.nitrite_stick": "Nitrite Stick",
+  "item.skyfaction.artrite_stick": "Artrite Stick",
+  "item.skyfaction.terralium_stick": "Terralium Stick",
+  "item.skyfaction.horium_stick": "Horium Stick",
+  "item.skyfaction.kozalium_stick": "Kozalium Stick",
+
+  "item.skyfaction.nitrite_orb": "Nitrite Orb",
+  "item.skyfaction.artrite_orb": "Artrite Orb",
+  "item.skyfaction.terralium_orb": "Terralium Orb",
+  "item.skyfaction.horium_orb": "Horium Orb",
+  "item.skyfaction.kozalium_orb": "Kozalium Orb",
+
+  "item.skyfaction.xp_berry": "XP Berry",
+
+  "item.skyfaction.fake_water_bucket": "Fake Water Bucket",
+
   "block.skyfaction.nitrite_block": "Nitrite Block",
   "block.skyfaction.artrite_block": "Artrite Block",
   "block.skyfaction.terralium_block": "Terralium Block",
@@ -104,11 +125,15 @@
   "block.skyfaction.black_colorblock": "Black Color Block",
 
   "block.skyfaction.cave_block": "Cave Block",
+  "block.skyfaction.compressed_tnt": "Compressed TNT",
+  "block.skyfaction.renforced_cobblestone": "Renforced Cobblestone",
 
   "block.skyfaction.obsidian_stairs": "Obsidian Stairs",
   "block.skyfaction.obsidian_slab": "Obsidian Slab",
   "block.skyfaction.obsidian_door": "Obsidian Door",
   "block.skyfaction.obsidian_trapdoor": "Obsidian Trapdoor",
+
+  "block.skyfaction.xp_bush": "XP Bush",
 
   "itemGroup.skyfaction": "SkyFaction"
 }

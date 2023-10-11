@@ -118,6 +118,26 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.KOZALIUM_CHESTPLATE);
         trimmedArmorItem(ModItems.KOZALIUM_LEGGINGS);
         trimmedArmorItem(ModItems.KOZALIUM_BOOTS);
+
+        simpleItem(ModItems.HEAL_STICK);
+        simpleItem(ModItems.STRENGHT_STICK);
+        simpleItem(ModItems.SPEED_STICK);
+        simpleItem(ModItems.FOOD_STICK);
+
+        simpleItem(ModItems.NITRITE_STICK);
+        simpleItem(ModItems.ARTRITE_STICK);
+        simpleItem(ModItems.TERRALIUM_STICK);
+        simpleItem(ModItems.HORIUM_STICK);
+        simpleItem(ModItems.KOZALIUM_STICK);
+
+        simpleItem(ModItems.NITRITE_ORB);
+        simpleItem(ModItems.ARTRITE_ORB);
+        simpleItem(ModItems.TERRALIUM_ORB);
+        simpleItem(ModItems.HORIUM_ORB);
+        simpleItem(ModItems.KOZALIUM_ORB);
+
+        simpleItem(ModItems.FAKE_WATER_BUCKET);
+        simpleItem(ModItems.XP_BERRY);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
