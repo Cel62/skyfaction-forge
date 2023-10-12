@@ -25,7 +25,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class XPBerryBlock extends Block {
 
-    private final VoxelShape[] SHAPE = new VoxelShape[] {
+    public static final VoxelShape[] SHAPE = new VoxelShape[] {
             Block.box(7, 0, 7, 9, 2, 9),
             Block.box(6, 0, 6, 10, 4, 10),
             Block.box(5, 0, 5, 11, 6, 11),
@@ -34,11 +34,11 @@ public class XPBerryBlock extends Block {
             Block.box(2, 0, 2, 14, 12, 14),
     };
 
-    private final IntegerProperty AGE = BlockStateProperties.AGE_5;
+    public static final IntegerProperty AGE = IntegerProperty.create("age", 0, 5);
 
     public XPBerryBlock() {
         super(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK).noOcclusion().randomTicks());
-        this.registerDefaultState(this.getStateDefinition().any().setValue(AGE, Integer.valueOf(0)));
+        this.registerDefaultState(this.getStateDefinition().any().setValue(AGE, 0));
     }
 
     @Override

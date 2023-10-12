@@ -119,6 +119,7 @@
   "block.skyfaction.light_gray_colorblock": "Light Gray Color Block",
   "block.skyfaction.cyan_colorblock": "Cyan Color Block",
   "block.skyfaction.purple_colorblock": "Purple Color Block",
+  "block.skyfaction.blue_colorblock": "Blue Color Block",
   "block.skyfaction.brown_colorblock": "Brown Color Block",
   "block.skyfaction.green_colorblock": "Green Color Block",
   "block.skyfaction.red_colorblock": "Red Color Block",
@@ -134,6 +135,8 @@
   "block.skyfaction.obsidian_trapdoor": "Obsidian Trapdoor",
 
   "block.skyfaction.xp_bush": "XP Bush",
+
+  "fluid_type.skyfaction.fake_water_fluid": "Fake Water",
 
   "itemGroup.skyfaction": "SkyFaction"
 }

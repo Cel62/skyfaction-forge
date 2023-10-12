@@ -119,6 +119,7 @@
   "block.skyfaction.light_gray_colorblock": "Bloc de couleur gris clair",
   "block.skyfaction.cyan_colorblock": "Bloc de couleur cyan",
   "block.skyfaction.purple_colorblock": "Bloc de couleur violette",
+  "block.skyfaction.blue_colorblock": "Bloc de couleur bleue",
   "block.skyfaction.brown_colorblock": "Bloc de couleur marron",
   "block.skyfaction.green_colorblock": "Bloc de couleur verte",
   "block.skyfaction.red_colorblock": "Bloc de couleur rouge",
@@ -134,6 +135,8 @@
   "block.skyfaction.obsidian_trapdoor": "Trappe en obsidienne",
 
   "block.skyfaction.xp_bush": "Buisson d'expérience",
+
+  "fluid_type.skyfaction.fake_water_fluid": "Eau fausse",
 
   "itemGroup.skyfaction": "SkyFaction"
 }

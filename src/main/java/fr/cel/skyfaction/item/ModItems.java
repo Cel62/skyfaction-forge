@@ -30,6 +30,13 @@ public class ModItems {
     public static final RegistryObject<Item> HORIUM_INGOT = ITEMS.register("horium_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KOZALIUM_INGOT = ITEMS.register("kozalium_ingot", () -> new Item(new Item.Properties()));
 
+    // Orbs
+    public static final RegistryObject<Item> NITRITE_ORB = ITEMS.register("nitrite_orb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ARTRITE_ORB = ITEMS.register("artrite_orb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TERRALIUM_ORB = ITEMS.register("terralium_orb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HORIUM_ORB = ITEMS.register("horium_orb", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KOZALIUM_ORB = ITEMS.register("kozalium_orb", () -> new Item(new Item.Properties()));
+
     // Tools
     public static final RegistryObject<Item> NITRITE_SWORD = ITEMS.register("nitrite_sword",
             () -> new SwordItem(ModToolTiers.NITRITE, 4, -2.4F, new Item.Properties()));
@@ -186,12 +193,6 @@ public class ModItems {
     public static final RegistryObject<Item> TERRALIUM_STICK = ITEMS.register("terralium_stick", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HORIUM_STICK = ITEMS.register("horium_stick", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KOZALIUM_STICK = ITEMS.register("kozalium_stick", () -> new Item(new Item.Properties()));
-
-    public static final RegistryObject<Item> NITRITE_ORB = ITEMS.register("nitrite_orb", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ARTRITE_ORB = ITEMS.register("artrite_orb", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> TERRALIUM_ORB = ITEMS.register("terralium_orb", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> HORIUM_ORB = ITEMS.register("horium_orb", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> KOZALIUM_ORB = ITEMS.register("kozalium_orb", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> FAKE_WATER_BUCKET = ITEMS.register("fake_water_bucket",
             () -> new BucketItem(ModFluids.SOURCE_FAKE_WATER, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
