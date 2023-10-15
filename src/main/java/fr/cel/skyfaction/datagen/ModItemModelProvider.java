@@ -138,6 +138,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.FAKE_WATER_BUCKET);
         simpleItem(ModItems.XP_BERRY);
+        simpleItem(ModItems.DETECTOR_EYE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

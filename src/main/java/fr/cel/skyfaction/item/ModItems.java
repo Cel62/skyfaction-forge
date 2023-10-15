@@ -183,6 +183,7 @@ public class ModItems {
     public static final RegistryObject<Item> KOZALIUM_BOOTS = ITEMS.register("kozalium_boots",
             () -> new ArmorItem(ModArmorMaterials.KOZALIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    // Effect Sticks
     public static final RegistryObject<Item> HEAL_STICK = ITEMS.register("heal_stick", () -> new EffectStickItem(MobEffects.HEAL, 1, 1));
     public static final RegistryObject<Item> STRENGHT_STICK = ITEMS.register("strenght_stick", () -> new EffectStickItem(MobEffects.DAMAGE_BOOST, 15*20, 1));
     public static final RegistryObject<Item> SPEED_STICK = ITEMS.register("speed_stick", () -> new EffectStickItem(MobEffects.MOVEMENT_SPEED, 30*20, 2));
@@ -194,10 +195,15 @@ public class ModItems {
     public static final RegistryObject<Item> HORIUM_STICK = ITEMS.register("horium_stick", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KOZALIUM_STICK = ITEMS.register("kozalium_stick", () -> new Item(new Item.Properties()));
 
+    // Fake Water Bucket
     public static final RegistryObject<Item> FAKE_WATER_BUCKET = ITEMS.register("fake_water_bucket",
             () -> new BucketItem(ModFluids.SOURCE_FAKE_WATER, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
+    // XP Berry
     public static final RegistryObject<Item> XP_BERRY = ITEMS.register("xp_berry", () -> new XPBerryItem(new Item.Properties()));
+
+    // Eye Finder
+    public static final RegistryObject<Item> DETECTOR_EYE = ITEMS.register("detector_eye", () -> new Item(new Item.Properties()));
 
     /**
      * Permet d'enregistrer tous les items de la classe

@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-12T22:56:20.6902208	Item Models: skyfaction
+// 1.20.1	2023-10-14T12:33:14.9044938	Item Models: skyfaction
 133c7bb58f296be0a42380b7d8603a5897d64bc6 assets/skyfaction/models/item/artrite_axe.json
 2b278c20465a04a205dc9f6c8c5288ac38c57e9d assets/skyfaction/models/item/artrite_boots.json
 9125a3ba070bee54b51e9af26f9e58c86394f7a7 assets/skyfaction/models/item/artrite_boots_amethyst_trim.json
@@ -52,6 +52,7 @@ c784de33f816c25926e133e5f2ba7618e9cdfba2 assets/skyfaction/models/item/artrite_o
 4f2887bdc41a995dd1abe9b1537040b078d20da5 assets/skyfaction/models/item/artrite_shovel.json
 e45d707522270944bd8f5ddb6cc90900bfc9f5d3 assets/skyfaction/models/item/artrite_stick.json
 6dc184532532260a78c406de232408e6803b9a0b assets/skyfaction/models/item/artrite_sword.json
+e9257d58c7d016ece1b3080f64ef6cc6babaad0c assets/skyfaction/models/item/detector_eye.json
 fd91e1bec9ccecd2ca2a82ee639d048530df7938 assets/skyfaction/models/item/fake_water_bucket.json
 f702fb134d9a25b84040a0485a79f5b812725e19 assets/skyfaction/models/item/food_stick.json
 9888faefe1f89d4a0f6a2d78be95a6da76fa9b91 assets/skyfaction/models/item/heal_stick.json

@@ -13,7 +13,6 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -95,12 +94,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         colorBlock(Items.BLACK_DYE, ModBlocks.BLACK_COLORBLOCK, pWriter);
 
         // Cave Block
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CAVE_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModBlocks.CAVE_BLOCK.get())
                 .pattern("GXG")
-                .pattern("XGX")
+                .pattern("XEX")
                 .pattern("GXG")
                 .define('G', Blocks.GLASS)
                 .define('X', ModItems.XRAY_FRAGMENT.get())
+                .define('E', ModItems.DETECTOR_EYE.get())
                 .unlockedBy(getHasName(ModItems.XRAY_FRAGMENT.get()), has(ModItems.XRAY_FRAGMENT.get()))
                 .save(pWriter);
 
@@ -132,7 +132,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         stuff(ModItems.KOZALIUM_INGOT, ModItems.KOZALIUM_ORB, KOZALIUM_TOOLS, pWriter);
 
         // Fake Water Bucket
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FAKE_WATER_BUCKET.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.FAKE_WATER_BUCKET.get())
                 .pattern(" L ")
                 .pattern("CSC")
                 .pattern(" W ")
@@ -168,6 +168,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         effectStick(Items.COOKED_BEEF, ModItems.FOOD_STICK, pWriter);
         effectStick(Items.BLAZE_POWDER, ModItems.STRENGHT_STICK, pWriter);
         effectStick(Items.NETHER_STAR, ModItems.HEAL_STICK, pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DETECTOR_EYE.get())
+                .pattern("PHP")
+                .pattern("AEK")
+                .pattern("PTP")
+                .define('P', Items.ENDER_PEARL)
+                .define('H', ModItems.HORIUM_FRAGMENT.get())
+                .define('A', ModItems.ARTRITE_FRAGMENT.get())
+                .define('E', Items.ENDER_EYE)
+                .define('K', ModItems.KOZALIUM_FRAGMENT.get())
+                .define('T', ModItems.TERRALIUM_FRAGMENT.get())
+                .unlockedBy(getHasName(ModItems.ARTRITE_FRAGMENT.get()), has(ModItems.ARTRITE_FRAGMENT.get()))
+                .save(pWriter);
     }
 
     private void orb(RegistryObject<Item> fragment, RegistryObject<Item> ingot, RegistryObject<Block> block, RegistryObject<Item> orb, Consumer<FinishedRecipe> pWriter) {
@@ -183,7 +196,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     private void effectStick(ItemLike item, RegistryObject<Item> stick, Consumer<FinishedRecipe> pWriter) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, stick.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, stick.get())
                 .pattern("  I")
                 .pattern(" S ")
                 .pattern("O  ")
@@ -195,7 +208,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     private void mineralStick(RegistryObject<Item> mineral, RegistryObject<Item> stick, Consumer<FinishedRecipe> pWriter) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, stick.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, stick.get(), 2)
                 .pattern("M")
                 .pattern("M")
                 .define('M', mineral.get())
@@ -320,7 +333,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     private void colorBlock(ItemLike item, RegistryObject<Block> block, Consumer<FinishedRecipe> pWriter) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, block.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, block.get())
                 .pattern("DDD")
                 .pattern("DGD")
                 .pattern("DDD")
@@ -331,7 +344,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     private void allToSomething(ItemLike item, ItemLike itemLike, Consumer<FinishedRecipe> pWriter) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemLike)
+        allToSomething(item, itemLike, pWriter, RecipeCategory.MISC);
+    }
+
+    private void allToSomething(ItemLike item, ItemLike itemLike, Consumer<FinishedRecipe> pWriter, RecipeCategory recipeCategory) {
+        ShapedRecipeBuilder.shaped(recipeCategory, itemLike)
                 .pattern("III")
                 .pattern("III")
                 .pattern("III")

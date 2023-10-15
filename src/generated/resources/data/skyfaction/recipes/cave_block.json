@@ -1,7 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
+    "E": {
+      "item": "skyfaction:detector_eye"
+    },
     "G": {
       "item": "minecraft:glass"
     },
@@ -11,7 +14,7 @@
   },
   "pattern": [
     "GXG",
-    "XGX",
+    "XEX",
     "GXG"
   ],
   "result": {
